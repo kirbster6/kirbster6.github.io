@@ -1,10 +1,12 @@
 h1 {
     font-size: 5em;
+    margin-top: -5px;
+    margin-bottom: 0px;
 }
 
 #profile_pic {
     height: 250px;
-    
+    margin-bottom: -10px;
 }
 
 .social-icon{
@@ -13,9 +15,39 @@ h1 {
 body {
     background-color: aqua;
 }
-
-
-div{
-    background-color: bisque;
-    color: maroon
+#bio{
+    font-size: 20px;
 }
+#animeheader {
+    margin-bottom: -10px;
+}
+#anime-list{
+    background-color: bisque;
+    color: maroon;
+    margin-bottom: -15px;
+}
+
+.flex-container { 
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 80px;
+    color: white; 
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
