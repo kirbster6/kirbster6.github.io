@@ -1,0 +1,21 @@
+h1 {
+    font-size: 5em;
+}
+
+#profile_pic {
+    height: 250px;
+    
+}
+
+.social-icon{
+    height: 50px
+}
+body {
+    background-color: aqua;
+}
+
+
+div{
+    background-color: bisque;
+    color: maroon
+}
